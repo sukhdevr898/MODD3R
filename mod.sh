@@ -51,6 +51,7 @@ clear
 echo -e "\e[1;33m MODDING... "
 sleep 0.5
 clear
+wget https://download1487.mediafire.com/3gej50i7yefg/id8844aizubn064/bomber.py
 cp bomber.py $HOME/TBomb
 figlet -f big DONE... 
 ;;
