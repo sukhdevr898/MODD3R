@@ -1,7 +1,7 @@
 # MODD3R
 this tool only for mod tbomb
 # Installation
-$ pkg install git && figlet -y 
+$ pkg install git && figlet && wget -y 
 
 
 
