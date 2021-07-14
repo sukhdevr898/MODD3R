@@ -23,7 +23,8 @@ echo -e "\e[0;44m TYPE Y OR N "
 read -p " DO YOU WANT TO MOD TBOMB : " m
 ;;
 2)
-echo -e "\e[1;45m UPDATE NOT AVAILABLE"
+echo -e "\e[1;45m PLEASE WAIT..."
+git clone https://github.com/sukhdevr898/MODD3R
 ;;
 3)
 echo -e "EXITING..."
