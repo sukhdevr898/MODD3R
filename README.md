@@ -33,15 +33,15 @@ You can find me on <br>
 # MODD3R
 this tool only for mod tbomb
 # Installation
-$ pkg install git && figlet && wget -y 
+>$ pkg install git && figlet && wget -y 
 <br>
 
 
 
-$ git clone https://GitHub.com/sukhdevr898/MODD3R
+>$ git clone https://GitHub.com/sukhdevr898/MODD3R
 
 <br>
 
-$ cd MODD3R<br>
+>$ cd MODD3R<br>
 
-$ bash mod.sh<br>
+>$ bash mod.sh<br>
