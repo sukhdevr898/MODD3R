@@ -1,4 +1,9 @@
-
+clear
+echo -e "\e[96m\t\t\t |------------------------------------------------------|"
+echo -e "\e[96m\t\t\t |   CONNECTING WITH SUKHDEVR898 SERVER [....]          |"
+echo -e "\e[96m\t\t\t |------------------------------------------------------|"
+sleep 5.0
+bash start.sh
 upd_url="https://github.com/sukhdevr898/MODD3R"
 clear
 
