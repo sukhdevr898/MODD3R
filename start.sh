@@ -5,7 +5,7 @@ then
 echo -e "\e[96m\t\t\t |------------------------------------------------------|"
 echo -e "\e[96m\t\t\t |    CONNECTED  [✓]                                    |"
 echo -e "\e[96m\t\t\t |------------------------------------------------------|"
-echo -e "\e[96m\n\t\t\t |========= YOU ARE NOW CONNECTED WITH OUR SITE ✓ ===|"
+echo -e "\e[96m\n\t\t\t |========= NOW  YOU ARE CONNECTED WITH SERVER ✓    ===|"
 sleep 5.0
 else 
 echo -e "\e[96m\t\t\t |------------------------------------------------------|"   
