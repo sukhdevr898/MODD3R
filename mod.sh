@@ -10,7 +10,7 @@ echo -e "THIS TOOL ONLY FOR MODDING TBOMB  "
  echo -e "\e[1;35m ██║╚██╔╝██║██║░░██║██║░░██║██║░░██║░╚═══██╗██╔══██╗"
  echo -e "\e[1;35m ██║░╚═╝░██║╚█████╔╝██████╔╝██████╔╝██████╔╝██║░░██║"
  echo -e "\e[1;35m ╚═╝░░░░░╚═╝░╚════╝░╚═════╝░╚═════╝░╚═════╝░╚═╝░░╚═╝"
- echo -e "\e[1;32m \n\t CREATED BY SUKHDEVR898 \n\t\t version 2.0 antiban"
+ echo -e "\e[1;32m \n\t CREATED BY SUKHDEVR898 \n\t\t version 2.1 antiban"
 
 echo-e "\e[98m ___________________________________________________________________"
 
@@ -27,6 +27,17 @@ case "$OP" in
 echo -e "\e[98m CHECKING TBOMB..."
 if [ -d TBomb ] ;
 then 
+echo -e "\e[98m \t\t\tTBOMB already Installed ...✓"
+else
+echo-e"\e[98m\t\t\t TBOMB not Installed..."
+echo -e ""
+echo -e "\e[98m \t\t\t TBomb Installing...."
+cd $HOME
+git clone https://github.com/TheSpeedX/TBomb > /dev/null 2>1&
+sleep 10.0
+fi
+
+
 
 echo -e "\e[0;44m TYPE Y OR N "
 read -p " DO YOU WANT TO MOD TBOMB : " m
@@ -35,7 +46,7 @@ read -p " DO YOU WANT TO MOD TBOMB : " m
 echo -e "\e[98m\t\t\t PLEASE WAIT.....!"
 echo -e "\e[98m\t\t\t UPDATE CHECKING.....!"
 sleep 5.0
-wget -q --spider https://raw.githubusercontent.com/sukhdevr898/MODD3R/main/.version2.0
+wget -q --spider https://raw.githubusercontent.com/sukhdevr898/MODD3R/main/.version2.1
 if [ $? -eq 0 ];
 then 
 echo -e "\e[96m\t\t\t |------------------------------------------------------|"
@@ -44,7 +55,7 @@ echo -e "\e[96m\t\t\t |------------------------------------------------------|"
 
 else 
 echo -e "\e[96m\t\t\t |------------------------------------------------------|"   
-echo -e "\e[96m\t\t\t |    UPDATE AVAILABLE  [✓]                             |"
+echo -e "\e[96m\t\t\t |    UPDATE AVAILABLE  [✓]     2.2                     |"
 echo -e "\e[96m\t\t\t |------------------------------------------------------|"
 fi
 echo -e "DO YOU WANT TO UPDATE THIS TOOL "
@@ -91,6 +102,7 @@ clear
 echo -e "\e[1;33m MODDING... "
 sleep 0.5
 clear
+rm $HOME/TBomb/bomber.py
 cp bomber.py $HOME/TBomb
 figlet -f big DONE... 
 ;;
@@ -115,6 +127,7 @@ echo -e "\e[1;33m MODDING... "
 sleep 0.5
 clear
 
+rm $HOME/TBomb/bomber.py
 cp bomber.py $HOME/TBomb
 figlet -f big DONE...
 ;;
