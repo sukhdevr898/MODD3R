@@ -2,7 +2,7 @@
 upd_url="https://github.com/sukhdevr898/MODD3R"
 clear
 
-echo-e "\e[98m ___________________________________________________________________"
+echo -e "\e[98m ___________________________________________________________________"
 echo -e "THIS TOOL ONLY FOR MODDING TBOMB  "
  echo -e "\e[1;35m ███╗░░░███╗░█████╗░██████╗░██████╗░██████╗░██████╗"░
  echo -e "\e[1;35m ████╗░████║██╔══██╗██╔══██╗██╔══██╗╚════██╗██╔══██╗"
@@ -14,12 +14,12 @@ echo -e "THIS TOOL ONLY FOR MODDING TBOMB  "
 
 echo-e "\e[98m ___________________________________________________________________"
 
-echo-e "\e[98m ====================================================================="
+echo -e "\e[98m ====================================================================="
  echo -e "\e[1;36m \n\t CHOOSE A OPTION "
  echo -e "\e[1;33m 1 => MOD TBOMB" 
 echo -e "\e[1;33m 2 => UPDATE "
  echo -e "\e[1;33m 3 => EXIT "
-echo-e "\e[98m ====================================================================="
+echo -e "\e[98m ====================================================================="
  
 read -p "ENTER ANY NO. : " OP
 case "$OP" in  
@@ -29,7 +29,7 @@ if [ -d TBomb ] ;
 then 
 echo -e "\e[98m \t\t\tTBOMB already Installed ...✓"
 else
-echo-e"\e[98m\t\t\t TBOMB not Installed..."
+echo -e"\e[98m\t\t\t TBOMB not Installed..."
 echo -e ""
 echo -e "\e[98m \t\t\t TBomb Installing...."
 cd $HOME
