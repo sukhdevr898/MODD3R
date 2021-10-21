@@ -17,13 +17,13 @@ echo -e "THIS TOOL ONLY FOR MODDING TBOMB  "
  echo -e "\e[97m ╚═╝░░░░░╚═╝░╚════╝░╚═════╝░╚═════╝░╚═════╝░╚═╝░░╚═╝"
  echo -e "\e[92m \n\t CREATED BY SUKHDEVR898 \n\t\t version 2.1 antiban"
 
-echo-e "\e[98m ___________________________________________________________________"
+echo -e "\e[98m ___________________________________________________________________"
 
 echo -e "\e[98m ====================================================================="
- echo -e "\e[99m \n\t CHOOSE A OPTION "
- echo -e "\e[99m 1 => MOD TBOMB" 
-echo -e "\e[99m 2 => UPDATE "
- echo -e "\e[99m 3 => EXIT "
+ echo -e "\e[96m \n\t CHOOSE A OPTION "
+ echo -e "\e[96m 1 => MOD TBOMB" 
+echo -e "\e[96m 2 => UPDATE "
+ echo -e "\e[96m 3 => EXIT "
 echo -e "\e[98m ====================================================================="
  
 read -p "ENTER ANY NO. : " OP
