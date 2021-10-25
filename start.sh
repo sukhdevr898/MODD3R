@@ -14,6 +14,6 @@ echo -e "\e[96m\t\t\t |------------------------------------------------------|"
 echo -e "\e[96m\t\t\t |    CHECK INTERNET CONNECTION OTHERWISE               |"
 echo -e "\e[96m\t\t\t |  THIS TOOL REMOVED BY SUKHDEVR898 YOU CAN'T USE      |"
 echo -e "\e[96m\t\t\t |------------------------------------------------------|"
- sleep 30.0
- bash start.sh
+ sleep 10.0
+ exit 1
 fi
