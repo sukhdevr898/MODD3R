@@ -30,7 +30,7 @@ read -p "ENTER ANY NO. : " OP
 case "$OP" in  
 1)
 echo -e "\e[98m CHECKING TBOMB..."
-if [ -d TBomb ] ;
+if [ -d $HOME/TBomb ] ;
 then 
 echo -e "\e[98m \t\t\tTBOMB already Installed ...✓"
 else
@@ -46,6 +46,16 @@ fi
 
 echo -e "\e[0;44m TYPE Y OR N "
 read -p " DO YOU WANT TO MOD TBOMB : " m
+cd TBomb
+rm bomber.py
+wget https://raw.githubusercontent.com/sukhdevr898/MODD3R/patch/bomber.py
+clear
+figlet -f big  done
+echo -e "------------------------------------------------"
+echo -e "Copy and paste this command"
+echo -e " =>  cd && cd TBomb && bash TBomb.sh"
+echo -e "------------------------------------------------"
+
 ;;
 2)
 echo -e "\e[98m\t\t\t PLEASE WAIT.....!"
