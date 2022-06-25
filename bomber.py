@@ -61,7 +61,7 @@ def bann_text():
       ██    ██  ██ ██  ██ ██ ▒ ██ ██  ██
       ██    █████▒ ▒████▒ ██   ██ █████▒
       ▒▒    ▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒
-                                         """
+          MODIFIED BY SUKHDEVR898                               """
     if ASCII_MODE:
         logo = ""
     version = "Version: "+__VERSION__
@@ -419,7 +419,7 @@ if __name__ == "__main__":
     if args.version:
         print("Version: ", __VERSION__)
     elif args.contributors:
-        print("Contributors: ", " ".join(__CONTRIBUTORS__))
+        print("Contributors: ", " ".join(__MODDER__))
     elif args.update:
         update()
     elif args.mail:
